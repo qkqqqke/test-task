@@ -1,0 +1,13 @@
+.button{
+    min-width: 104px;
+    height: 8vh;
+    width: 10vw;
+    background-color: #F49150;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.success{
+    background-color: rgb(49, 141, 49);
+}

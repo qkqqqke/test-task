@@ -1,0 +1,68 @@
+.feedback{
+    height: 100vh;
+  
+    mix-blend-mode: multiply ;
+  
+    background-image: 
+    linear-gradient(rgba(24, 34, 131, 0.2), rgba(24, 34, 131, 0.2))
+    ,url('/src/source/связь.png');
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedback > article{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+  }
+  
+  .feedback > article > div{
+    width: 39vw;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .feedback > article> div > h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  
+  .feedback > article > div > span{
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .feedbackForm{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .inputWrapper > input{
+    background: transparent;
+    border: none;
+  }
+  
+  .feedbackForm > button{
+  
+    border-radius: 5px;
+    border:none;
+    background-color: #F49150;
+  }
+  
+  @media screen and (max-width: 900px) {
+  
+    .feedback > article > div{
+      width: 100%;
+      
+    }
+  }
